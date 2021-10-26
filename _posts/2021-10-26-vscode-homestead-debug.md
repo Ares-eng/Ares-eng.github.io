@@ -14,16 +14,18 @@ tags:
 首先需要安装去vscode上安装一些调试所需要的插件
 
 #### 安装php Debug插件
-![alt 安装php debug]('/assets/images/vscode_install_phpdebug.png')
+![alt 安装php debug](/assets/images/vscode_install_phpdebug.png)
 
 ## 配置vscode调试
 > 第一步：点击运行和调试
 
+![alt 点击运行和调试](/assets/images/vscode_clike_debug.png)
+
 > 第二步：点击显示所有自动调试配置，点击添加配置，选择php。
 > 然后编辑launch.json
 
-![alt 配置debug]('/assets/images/vscode_phpdebug_one.png')
-![alt 配置debug]('/assets/images/vscode_phpdebug_two.png')
+![alt 配置debug](/assets/images/vscode_phpdebug_one.png)
+![alt 配置debug](/assets/images/vscode_phpdebug_two.png)
 
 ```json
 {
@@ -49,4 +51,4 @@ tags:
 
 > 第三步：运行debug开始调试
 
-![alt 运行debug]('/assets/images/vscode_run_phpdebug.png')
+![alt 运行debug](/assets/images/vscode_run_phpdebug.png)
