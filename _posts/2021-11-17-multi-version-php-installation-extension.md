@@ -7,7 +7,7 @@ tags:
   - extension
 ---
 因为项目中有使用imagick扩展所以需要在homestead环境中安装imagick扩展，
-但是因为是多版本php所以安装在扩展的过程中遇到一些问题，所以记录一下多版本php安装扩展的踩坑过程
+但是因为是多版本php所以在安装扩展的过程中遇到一些问题，所以记录一下多版本php安装扩展的踩坑过程
 
 ## 下载扩展源码包
 首先去pecl官网去下载所需要安装扩展包，这里以imagick扩展为例
@@ -17,10 +17,15 @@ tags:
 
 ## 进行解压
 ```
-tar -zxvf 被解压文件
+tar -zxvf imagick-3.6.0RC2.tgz
 ```
 
 ## 开始编译安装
+解压完成后，cd进入文件夹
+```
+cd imagick-3.6.0RC2
+```
+
 首先需要phpize（如果没有安装，则须安装php-dev）默认homestead是安装了的所以不需要再安装一遍
 ```
 ./configure –with-php-config=/usr/bin/php-config7.4（指定版本的php-config地址）
