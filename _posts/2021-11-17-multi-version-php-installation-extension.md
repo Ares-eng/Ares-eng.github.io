@@ -4,7 +4,7 @@ categories:
   - php
 tags:
   - php
-  - extension
+  - php extension
 ---
 因为项目中有使用imagick扩展所以需要在homestead环境中安装imagick扩展，
 但是因为是多版本php所以在安装扩展的过程中遇到一些问题，所以记录一下多版本php安装扩展的踩坑过程
