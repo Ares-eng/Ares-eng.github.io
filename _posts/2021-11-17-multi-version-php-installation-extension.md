@@ -28,7 +28,7 @@ cd imagick-3.6.0RC2
 
 首先需要phpize（如果没有安装，则须安装php-dev）默认homestead是安装了的所以不需要再安装一遍
 ```
-./configure –with-php-config=/usr/bin/php-config7.4（指定版本的php-config地址）
+phpize && ./configure –with-php-config=/usr/bin/php-config7.4（指定版本的php-config地址）
 ```
 
 这里./configure可能会报错，信息为configure: error: not found. Please provide a path to MagickWand-config or Wand-config program.
