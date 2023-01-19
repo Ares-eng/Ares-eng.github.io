@@ -12,7 +12,7 @@ tags:
 ## 下载扩展源码包
 首先去pecl官网去下载所需要安装扩展包，这里以imagick扩展为例
 ```
-    wget https://pecl.php.net/get/imagick-3.6.0RC2.tgz
+wget https://pecl.php.net/get/imagick-3.6.0RC2.tgz
 ```
 
 ## 进行解压
