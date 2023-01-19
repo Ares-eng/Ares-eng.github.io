@@ -5,6 +5,7 @@ categories:
 tags:
   - mysql
   - 锁
+  - 面试
 ---
 #### mysql锁的类型
 * 表锁
