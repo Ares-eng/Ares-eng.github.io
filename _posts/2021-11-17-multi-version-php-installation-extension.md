@@ -5,22 +5,25 @@ categories:
 tags:
   - php
   - php extension
+toc: true
+toc_label: "目录"
+toc_icon: "cog"    
 ---
 因为项目中有使用imagick扩展所以需要在homestead环境中安装imagick扩展，
 但是因为是多版本php所以在安装扩展的过程中遇到一些问题，所以记录一下多版本php安装扩展的踩坑过程
 
-## 下载扩展源码包
+# 下载扩展源码包
 首先去pecl官网去下载所需要安装扩展包，这里以imagick扩展为例
 ```
 wget https://pecl.php.net/get/imagick-3.6.0RC2.tgz
 ```
 
-## 进行解压
+# 进行解压
 ```
 tar -zxvf imagick-3.6.0RC2.tgz
 ```
 
-## 开始编译安装
+# 开始编译安装
 解压完成后，cd进入文件夹
 ```
 cd imagick-3.6.0RC2
@@ -56,7 +59,7 @@ cd /etc/php/你想要安装的php版本/fpm/conf.d
 sudo ln -s /etc/php/你想要安装的php版本/mods-available/imagick.ini 20-imagick.ini
 ```
 
-## 重启php-fpm
+# 重启php-fpm
 编译完成后需要重启fpm，首先查看php-fpm的master进程号
 ```
 ps aux|grep php-fpm
@@ -75,7 +78,7 @@ kill -USR2 679
 ```
 就可以了
 
-## 参考的文章链接
+# 参考的文章链接
 https://blog.csdn.net/qq_16885135/article/details/78130281
 https://blog.csdn.net/cpainter/article/details/53401831
 https://blog.51cto.com/u_9025736/2372445

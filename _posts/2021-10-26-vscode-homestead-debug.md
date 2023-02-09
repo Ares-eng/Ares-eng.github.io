@@ -6,17 +6,20 @@ tags:
   - php
   - xdebug
   - vscode
+toc: true
+toc_label: "目录"
+toc_icon: "cog"
 ---
-## 起因
+# 起因
 因为开发中需要使用断点调试，所以记录下在vscode+homestead下开发如何使用xdebug断点调试
 
-## vscode 安装所需要的插件
+# vscode 安装所需要的插件
 首先需要安装去vscode上安装一些调试所需要的插件
 
-#### 安装php Debug插件
+# 安装php Debug插件
 ![alt 安装php debug](/assets/images/vscode_install_phpdebug.png)
 
-## 配置vscode调试
+# 配置vscode调试
 > 第一步：点击运行和调试
 
 ![alt 点击运行和调试](/assets/images/vscode_clike_debug.png)

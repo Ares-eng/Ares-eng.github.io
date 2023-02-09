@@ -5,8 +5,11 @@ categories:
 tags:
   - php
   - 面试
+toc: true
+toc_label: "目录"
+toc_icon: "cog"    
 ---
-#### php7和php5的区别
+# php7和php5的区别
 1、性能提升：php7比php5性能提升了两倍
 
 2、以前的许多致命错误，现在改成抛出异常
@@ -21,7 +24,7 @@ tags:
 
 7、php7可以define定义常量数组
 
-#### php7比php5快的原因
+# php7比php5快的原因
 1、变量存储字节减小，减少内存占用，提升变量操作速度
 
 2、改善数组结构，数组元素和hash映射表被分配在同一块内存里，降低 了内存占用、提升了cpu缓存命中率

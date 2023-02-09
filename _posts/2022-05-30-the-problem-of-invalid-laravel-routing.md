@@ -5,12 +5,15 @@ categories:
 tags:
   - php
   - laravel
+toc: true
+toc_label: "目录"
+toc_icon: "cog"    
 ---
 
-## 具体经过
+# 具体经过
 在正式服拉取最新代码之后，新增的接口前端反映无法请求成功，调查日志发现接口返回的信息是Call to a member function getModel() on null。
 
-## 解决过程
+# 解决过程
 首先Call to a member function getModel() on null这条信息的意思是接口地址访问错误，或者接口地址不存在，
 查看routes/api.php文件发现有定义路由，但是请求接口却返回地址不存在。
 

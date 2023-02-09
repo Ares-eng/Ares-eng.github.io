@@ -5,8 +5,11 @@ categories:
 tags:
   - php
   - homestead
+toc: true
+toc_label: "目录"
+toc_icon: "cog"    
 ---
-#### 1、启动时报错 Stderr: VBoxManage.exe: error: Not in a hypervisor partition (HVP=0) (VERR_NEM_NOT_AVAILABLE).
+# 1、启动时报错 Stderr: VBoxManage.exe: error: Not in a hypervisor partition (HVP=0) (VERR_NEM_NOT_AVAILABLE).
 解决步骤:
 
 1、先检查虚拟化是否启用，如果已经启用则该解决方案不适用。

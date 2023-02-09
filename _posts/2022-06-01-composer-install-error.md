@@ -6,11 +6,14 @@ tags:
   - php
   - composer
   - homestead
+toc: true
+toc_label: "目录"
+toc_icon: "cog"    
 ---
-## 起因
+# 起因
 项目执行composer install时显示git@github.com's password。
 
-## 解决过程
+# 解决过程
 用composer install -vvv命令显示
 
     Failed to download 包名 from dist: curl error 60 while downloading 包github地址: no alternative certificate subject name matches target host name 'api.github.com' Now trying to download from source

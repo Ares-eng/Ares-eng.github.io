@@ -5,9 +5,12 @@ categories:
 tags:
   - php
   - 面试
+toc: true
+toc_label: "目录"
+toc_icon: "cog"    
 ---
 
-#### 介绍
+# 介绍
 PHP中把以两个下划线__开头的方法称为魔术方法(Magic methods)，这些方法在PHP中充当了举足轻重的作用。 魔术方法包括：
 
 1、__construct()，类的构造函数
