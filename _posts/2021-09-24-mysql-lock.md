@@ -6,6 +6,9 @@ tags:
   - mysql
   - 锁
   - 面试
+toc: true
+toc_label: "目录"
+toc_icon: "cog"  
 ---
 #### mysql锁的类型
 * 表锁
