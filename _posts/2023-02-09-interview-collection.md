@@ -118,16 +118,6 @@ php-fpm是 FastCGI 的实现，并提供了进程管理的功能。
 
 master 进程只有一个，负责监听端口，接收来自 Web Server 的请求，而 worker 进程则一般有多个(具体数量根据实际需要配置)，每个进程内部都嵌入了一个 PHP 解释器，是 PHP 代码真正执行的地方。
 
-### 操作命令
-使用PHP-FPM来控制PHP-CGI的FastCGI进程\
-/usr/local/php/sbin/php-fpm{start|stop|quit|restart|reload|logrotate}\
---start 启动php的fastcgi进程\
---stop 强制终止php的fastcgi进程\
---quit 平滑终止php的fastcgi进程\
---restart 重启php的fastcgi进程\
---reload 重新平滑加载php的php.ini\
---logrotate 重新启用log文件
-
 ## 什么是中间件
 过滤Http请求
 
@@ -137,7 +127,7 @@ master 进程只有一个，负责监听端口，接收来自 Web Server 的请�
 
 中间件的设计使用了装饰器模式
 
-## laravel, 服务提供者是什么？
+## laravel 服务提供者是什么？
 服务提供者是所有 Laravel 应用程序引导启动的中心，Laravel 的核心服务器、注册服务容器绑定、事件监听、中间件、路由注册以及我们的应用程序都是由服务提供者引导启动的。
 
 ## IoC 容器是什么？
@@ -258,6 +248,7 @@ commit;
 
 #### 总结
 查询字段有组合索引之外的字段时，查询条件必须包含组合索引中的第一个字段，才会用到该索引
+
 查询字段只限于组合索引内的字段时，查询条件只要有组合索引中的字段，就会用到该索引
 ### id name  password  建立组合索引 怎么建立?为什么?
     alter table users add index user_password_index(name, password)
@@ -277,8 +268,6 @@ commit;
 4. 使用索引比全表扫描慢
 5. 用or分开的条件
 6. 条件索引使用函数
-
-
 
 ## 为什么 like 在 % 第一个字符用不到索引？
 假设查询姓名 like %名 会先查询当前所有的姓，然后再去查有没有符合名的数据，所以这样会进行全表扫描，从而用不到索引
