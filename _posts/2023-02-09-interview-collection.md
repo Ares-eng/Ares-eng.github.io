@@ -393,6 +393,7 @@ commit;
 查询字段只限于组合索引内的字段时，查询条件只要有组合索引中的字段，就会用到该索引
 ### id name  password  建立组合索引 怎么建立?为什么?
     alter table users add index user_password_index(name, password)
+    
 因为最左原则，一般name查询比较多所以name放在前面，很少会通过password来查，根据字段的辨识度来做
 
 ## 索引使用经典场景
