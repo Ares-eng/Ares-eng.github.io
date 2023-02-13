@@ -434,7 +434,7 @@ commit;
 
 ## MyISAM 和 InnoDB 的区别？从事物和表结构分析？
 1. MyISAM不支持事务，InnoDB是事务类型的存储引擎，当我们的表需要用到事务支持的时候，那肯定是不能选择MyISAM了
-2. MyISAM只支持表级锁，，而InnoDB支持行级锁和表级锁默认为行级锁
+2. MyISAM只支持表级锁，而InnoDB支持行级锁和表级锁默认为行级锁
 3. MyISAM引擎不支持外键，InnoDB支持外键
 4. MyISAM支持全文类型索引，而InnoDB不支持全文索引
 5. MyISAM引擎的表在大量高并发的读写下会经常出现表损坏的情况
