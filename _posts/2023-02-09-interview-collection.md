@@ -648,7 +648,7 @@ SELECT * FROM user_table WHERE
 username='' ;DROP DATABASE (DB Name) --' and password=''
 
 ## 防止 sql 注入
-###（简单又有效的方法）PreparedStatement
+### 简单又有效的方法 PreparedStatement
 采用预编译语句集，它内置了处理SQL注入的能力，只要使用它的setXXX方法传值即可。
 #### 使用好处
 1. 代码的可读性和可维护性.
