@@ -361,7 +361,7 @@ Rollback 回滚 如果发送故障，发出rollback命令 使事务返回到 所
 ### 语句
 ```
 set autocommit = 0;
-begin
+begin;
 sql操作
 savepoint p1;
 sql操作
