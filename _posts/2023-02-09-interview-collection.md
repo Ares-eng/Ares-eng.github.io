@@ -178,7 +178,7 @@ include_once,require_once 函数的作用与 include 相同，不过它会首先
 ### $_SERVER [‘REMOTE_ADDR’]
 在 PHP 中使用 $_SERVER["REMOTE_ADDR"] 来取得客户端的 IP 地址，但如果客户端是使用代理服务器来访问，那取到的就是代理服务器的 IP 地址，而不是真正的客户端 IP 地址。
 
-### $_SERVER [‘HTTP_X_FORWARED_FOR’]
+### $_SERVER [‘HTTP_X_FORWARDED_FOR’]
 要想透过代理服务器取得客户端的真实 IP 地址，就要使用 $_SERVER["HTTP_X_FORWARDED_FOR"] 来读取。
 
 ## 简述 orm 是什么？及优缺点
