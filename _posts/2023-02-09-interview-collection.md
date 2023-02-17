@@ -165,7 +165,7 @@ Composer 是 PHP 的一个依赖管理工具。工作原理就是将已开发好
 
 ## Include,require,include_once,require_once 的区别？
 ### include与require的区别
-include 与 require 除了在处理引入文件的方式不同外，最大的区别就是：include 在引入不存在的文件时产生一个警告且脚本还会继续执行， require 在引入不存在的文件则会导致一个致命性错误且脚本停止执行。
+include 与 require 除了在处理引入文件的方式不同外，最大的区别就是：include 在引入不存在的文件时会产生一个警告且脚本还会继续执行， require 在引入不存在的文件则会导致一个致命性错误且脚本停止执行。
 
 ### include_once与require_once的区别
 include_once,require_once 函数的作用与 include 相同，不过它会首先验证是否已包含该文件。如果已经包含，则不再执行 include_once。其他同 include 一样。
