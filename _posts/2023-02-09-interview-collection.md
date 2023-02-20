@@ -9,7 +9,6 @@ toc_label: "目录"
 toc_icon: "cog"    
 ---
 
-网上收集的面试集合
 # php
 ## PHP7 和 PHP5 的区别，具体多了哪些新特性？
 1、性能提升：php7比php5性能提升了两倍
