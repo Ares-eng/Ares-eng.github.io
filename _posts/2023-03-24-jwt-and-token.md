@@ -1,15 +1,14 @@
+---
 title: "jwt和token"
 categories:
-
-- jwt
-- token
-  tags:
-- jwt
-- token
-  toc: true
-  toc_label: "目录"
-  toc_icon: "cog"
-
+  - jwt
+  - token
+tags:
+  - jwt
+  - token
+toc: true
+toc_label: "目录"
+toc_icon: "cog"
 ---
 
 # 什么是token
