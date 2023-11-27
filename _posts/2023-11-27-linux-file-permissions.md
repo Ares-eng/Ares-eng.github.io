@@ -1,15 +1,13 @@
 ---
 title: "linux 文件权限"
 categories:
-
-- linux
-  tags:
-- linux
-- 权限
-  toc: true
-  toc_label: "目录"
-  toc_icon: "cog"
-
+  - linux
+tags:
+  - linux
+  - 权限
+toc: true
+toc_label: "目录"
+toc_icon: "cog"
 ---
 
 # linux 文件权限概念
